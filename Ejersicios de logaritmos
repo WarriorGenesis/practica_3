@@ -1,1 +1,64 @@
-Como no lo agarro la maquina del laboratorio subire la practica mas tarde, pero hoy 
+Dado un precio, calcular su descuento considerando que si el precio es mayor a 100 pesos el descuento será del 10 por ciento de otro medio, descontar solo un 2%
+
+Un algoritmo que lea 2 números y calcule su resta suma multiplicación y división de esos 2 numeros 
+
+Leer 3 números que van a denotar una fecha de día mes y año y verificar si es una fecha valida. 
+
+
+Algoritmo 1; 
+Entrada: numero entero de 0 a inf.
+Salida: el resultado dependiendo la operación hecha
+restricciones: números positivos mayores o menores a 100 
+
+Solución:
+	1.- primero debe de denotarse un precio.
+	2.- ya teniendo el precio, se debe de tener en cuenta el valor de este precio.
+	3.- comparar precios con 100.
+	4.- si es mayor a 100 hacer ejercicio 4.1
+		4.1.- multiplicar el valor del precio por 0.90
+	5.- si es menor a 100 hacer ejercicio 5.1
+		5.1.- multiplicar el valor del precio por 0.98
+	6.- dar el resultado del descuento dependiendo la operación. 
+
+Algoritmo 2; 
+Entrada: 2 números enteros positivos.
+Salida: el resultado de las 4operaciónes hechas
+restricciones: el primer numero debe ser mayor al segundo. 
+
+Solución:
+	1.- primero debe leerse un numero (num1)
+	2.- leer segundo numero (num 2)
+	3.- sumar los numeros (num1 + num2 = c1)
+	4.- restar los numeros (num1 – num 2 = c2)
+	5.- multiplicar los numeros (num 1 * num 2= c3)
+	6.- dividir los numeros (num 1 / num 2 = c4)
+	7.- dar el resultado de las 4 operaciones suma (sum=c1) Resta (res=c2) 
+	multiplicasion (mul=c3) division (div=c4)
+
+
+
+
+
+
+
+
+
+
+
+
+Algoritmo 3; 
+Entrada: numero entero de hasta 4 digitos
+Salida: fecha valida
+restricciones: números positivos y enteros. 
+Rango: 0 – 3,000
+
+Solución:
+	1.- leer numero 1
+	2.- si el numero es de 2 dígitos o menos continuar en a), si no pasar a x)
+		a) numero 1 < 31 continuar en a.1), numero 1>31 pasar a x)
+		a.1) numero 1 = dia
+	3.- Leer numero 2
+	4.- si el numero es de 2 digitos continuar en b), si no pasar a x
+    b) numero 2 < 12 continuar en b.1), numero 2 > 12 pasar a x
+    b.1) numero 2 = mes
+  
